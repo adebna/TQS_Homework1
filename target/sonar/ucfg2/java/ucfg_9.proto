@@ -1,0 +1,126 @@
+
+olei.tqs.controllers.WeatherInfoFromLocationController#weatherInfo(DDJJ)Llei/tqs/domain/WeatherInfoFromLocation;é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java# (."3*Ù
+2é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java (á
+Ñ
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java (%
+%4lei.tqs.cache.WeatherRepository"__id*D*B7
+5lei.tqs.controllers.WeatherInfoFromLocationController"
+cacheèå
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java (+,
+%5&lei.tqs.domain.WeatherInfoFromLocation"dlei.tqs.cache.WeatherRepository#retrieve(Ljava/lang/String;)Llei/tqs/domain/WeatherInfoFromLocation;*'
+%
+%4lei.tqs.cache.WeatherRepository*
+
+locationjava.lang.String2retrieve(Ljava/lang/String;)"¡
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java (,.
+,
+%5&lei.tqs.domain.WeatherInfoFromLocation*¨
+3é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java ('é
+ã
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java ('$
+%0lei.tqs.services.NominatimUtil"__id*L*J7
+5lei.tqs.controllers.WeatherInfoFromLocationController"
+nominatimUtil’“
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java (L
+%1java.lang.String"Olei.tqs.services.NominatimUtil#getLocationFromCoordinates(DD)Ljava/lang/String;*&
+$
+%0lei.tqs.services.NominatimUtil*
+""*
+""2getLocationFromCoordinates(DD)“
+œ
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java (M
+locationjava.lang.String"__id*
+
+%1java.lang.Stringá
+Ñ
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java (%
+%2lei.tqs.cache.WeatherRepository"__id*D*B7
+5lei.tqs.controllers.WeatherInfoFromLocationController"
+cache≈¬
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java ("
+%3boolean";lei.tqs.cache.WeatherRepository#hasKey(Ljava/lang/String;)Z*'
+%
+%2lei.tqs.cache.WeatherRepository*
+
+locationjava.lang.String2hasKey(Ljava/lang/String;)*
+2
+1*›
+1é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java1 (<ä
+á
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java1 (<"
+%6lei.tqs.services.DarkSkyUtil"__id*J*H7
+5lei.tqs.controllers.WeatherInfoFromLocationController"
+darkSkyUtilﬂ‹
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java1 (~
+%7java.util.List"Llei.tqs.services.DarkSkyUtil#getWeatherFromCoordinates(DDJJ)Ljava/util/List;*$
+"
+%6lei.tqs.services.DarkSkyUtil*
+""*
+""*
+""*
+""2getWeatherFromCoordinates(DDJJ)’
+“
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java (!
+weekWeatherDatajava.util.List"__id*
+
+%7java.util.ListÍÁ
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java -  (D,
+%8&lei.tqs.domain.WeatherInfoFromLocation"&lei.tqs.domain.WeatherInfoFromLocationı
+Ú
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java )  (i
+%9"Tlei.tqs.domain.WeatherInfoFromLocation#<init>(DDLjava/lang/String;Ljava/util/List;)V*.
+,
+%8&lei.tqs.domain.WeatherInfoFromLocation*
+""*
+""*
+
+locationjava.lang.String*#
+!
+weekWeatherDatajava.util.List¸
+˘
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java   (j0
+result&lei.tqs.domain.WeatherInfoFromLocation"__id*.
+,
+%8&lei.tqs.domain.WeatherInfoFromLocationà
+Ö
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java! !(&
+%10lei.tqs.cache.WeatherRepository"__id*D*B7
+5lei.tqs.controllers.WeatherInfoFromLocationController"
+cache»≈
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java! !(&
+%11void"clei.tqs.cache.WeatherRepository#insert(Ljava/lang/String;Llei/tqs/domain/WeatherInfoFromLocation;)V*(
+&
+%10lei.tqs.cache.WeatherRepository*
+
+locationjava.lang.String*2
+0
+result&lei.tqs.domain.WeatherInfoFromLocation2Binsert(Ljava/lang/String;Llei/tqs/domain/WeatherInfoFromLocation;)"≈
+é
+É/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/controllers/WeatherInfoFromLocationController.java" "(2
+0
+result&lei.tqs.domain.WeatherInfoFromLocation:
+"":
+"":
+"":
+""B97
+5lei.tqs.controllers.WeatherInfoFromLocationController

@@ -32,7 +32,7 @@ public class SeleniumExportedFromIDETest {
     }
 
     @Test
-    public void testAveiro() throws Exception {
+    public void testMadrid() throws Exception {
         TQSHomePage page = new TQSHomePage(driver, verificationErrors);
         page.searchWeather("Madrid", "01/05/2019", "06/05/2019");
         WebDriverWait wait = new WebDriverWait(driver, 30);

@@ -1,0 +1,25 @@
+
+dlei.tqs.cache.WeatherRepository#retrieve(Ljava/lang/String;)Llei/tqs/domain/WeatherInfoFromLocation;w
+m/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/cache/WeatherRepository.java+# +(+"1*æ
+1w
+m/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/cache/WeatherRepository.java, ,(Ç
+Ä
+w
+m/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/cache/WeatherRepository.java- -(
+%0java.util.Map"__id*.*,!
+lei.tqs.cache.WeatherRepository"
+cacheñî
+w
+m/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/cache/WeatherRepository.java- -(6,
+%1&lei.tqs.domain.WeatherInfoFromLocation"Rjava.util.Map#getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*
+
+%0java.util.Map*
+
+locationjava.lang.String*
+""22getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)"©
+w
+m/home/user/Documents/Escola/TQS/Homeworks/H1/TQS_Homework1/src/main/java/lei/tqs/cache/WeatherRepository.java- -(7.
+,
+%1&lei.tqs.domain.WeatherInfoFromLocation:
+locationjava.lang.StringB#!
+lei.tqs.cache.WeatherRepository
