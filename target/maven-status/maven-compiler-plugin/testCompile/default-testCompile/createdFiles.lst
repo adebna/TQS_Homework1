@@ -1,0 +1,10 @@
+lei/tqs/web/TQSHomePage.class
+lei/tqs/services/DarkSkyUtilTest$DarkSkyUtilTestContextConfig.class
+lei/tqs/WeatherInfoFromLocationControllerTest.class
+lei/tqs/services/NominatimUtilTest$NominatimUtilTestContextConfig.class
+lei/tqs/services/NominatimUtilTest.class
+lei/tqs/services/ApixuUtilTest$DarkSkyUtilTestContextConfig.class
+lei/tqs/services/ApixuUtilTest.class
+lei/tqs/services/DarkSkyUtilTest.class
+lei/tqs/cache/WeatherRepositoryTest.class
+lei/tqs/web/SeleniumExportedFromIDETest.class

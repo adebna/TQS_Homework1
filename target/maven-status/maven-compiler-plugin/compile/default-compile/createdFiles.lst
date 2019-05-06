@@ -1,0 +1,9 @@
+lei/tqs/services/NominatimUtil.class
+lei/tqs/domain/WeatherInfoFromLocation.class
+lei/tqs/domain/DataWeatherBlock.class
+lei/tqs/controllers/HomeController.class
+lei/tqs/services/ApixuUtil.class
+lei/tqs/HomeworkApplication.class
+lei/tqs/cache/WeatherRepository.class
+lei/tqs/controllers/WeatherInfoFromLocationController.class
+lei/tqs/services/DarkSkyUtil.class

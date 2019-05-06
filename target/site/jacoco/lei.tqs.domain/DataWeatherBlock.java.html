@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DataWeatherBlock.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">homework</a> &gt; <a href="index.source.html" class="el_package">lei.tqs.domain</a> &gt; <span class="el_source">DataWeatherBlock.java</span></div><h1>DataWeatherBlock.java</h1><pre class="source lang-java linenums">package lei.tqs.domain;
+
+import com.fasterxml.jackson.annotation.JsonCreator;
+
+public class DataWeatherBlock {
+    
+    private long time;
+    private String summary;
+    private String icon;
+    private double precipIntensity;
+    private double precipProbability;
+    private String precipType;
+    private double temperatureMax;
+    private double temperatureMin;
+    private double humidity;
+    private double windSpeed;
+    private double cloudCover;
+
+    @JsonCreator
+    public DataWeatherBlock(long time, 
+                            String summary, 
+                            String icon, 
+                            double precipIntensity, 
+                            double precipProbability, 
+                            String precipType, 
+                            double temperatureMax, 
+                            double temperatureMin, 
+                            double humidity, 
+                            double windSpeed, 
+<span class="fc" id="L30">                            double cloudCover) {</span>
+<span class="fc" id="L31">        this.time = time;</span>
+<span class="fc" id="L32">        this.summary = summary;</span>
+<span class="fc" id="L33">        this.icon = icon;</span>
+<span class="fc" id="L34">        this.precipIntensity = precipIntensity;</span>
+<span class="fc" id="L35">        this.precipProbability = precipProbability;</span>
+<span class="fc" id="L36">        this.precipType = precipType;</span>
+<span class="fc" id="L37">        this.temperatureMax = temperatureMax;</span>
+<span class="fc" id="L38">        this.temperatureMin = temperatureMin;</span>
+<span class="fc" id="L39">        this.humidity = humidity;</span>
+<span class="fc" id="L40">        this.windSpeed = windSpeed;</span>
+<span class="fc" id="L41">        this.cloudCover = cloudCover;</span>
+<span class="fc" id="L42">    }</span>
+
+    public long getTime() {
+<span class="fc" id="L45">        return time;</span>
+    }
+
+    public void setTime(long time) {
+<span class="nc" id="L49">        this.time = time;</span>
+<span class="nc" id="L50">    }</span>
+
+    public String getSummary() {
+<span class="fc" id="L53">        return summary;</span>
+    }
+
+    public void setSummary(String summary) {
+<span class="nc" id="L57">        this.summary = summary;</span>
+<span class="nc" id="L58">    }</span>
+
+    public String getIcon() {
+<span class="fc" id="L61">        return icon;</span>
+    }
+
+    public void setIcon(String icon) {
+<span class="nc" id="L65">        this.icon = icon;</span>
+<span class="nc" id="L66">    }</span>
+
+    public double getPrecipIntensity() {
+<span class="fc" id="L69">        return precipIntensity;</span>
+    }
+
+    public void setPrecipIntensity(double precipIntensity) {
+<span class="nc" id="L73">        this.precipIntensity = precipIntensity;</span>
+<span class="nc" id="L74">    }</span>
+
+    public double getPrecipProbability() {
+<span class="fc" id="L77">        return precipProbability;</span>
+    }
+
+    public void setPrecipProbability(double precipProbability) {
+<span class="nc" id="L81">        this.precipProbability = precipProbability;</span>
+<span class="nc" id="L82">    }</span>
+
+    public String getPrecipType() {
+<span class="fc" id="L85">        return precipType;</span>
+    }
+
+    public void setPrecipType(String precipType) {
+<span class="nc" id="L89">        this.precipType = precipType;</span>
+<span class="nc" id="L90">    }</span>
+
+    public double getTemperatureMax() {
+<span class="fc" id="L93">        return temperatureMax;</span>
+    }
+
+    public void setTemperatureMax(double temperatureMax) {
+<span class="nc" id="L97">        this.temperatureMax = temperatureMax;</span>
+<span class="nc" id="L98">    }</span>
+
+    public double getTemperatureMin() {
+<span class="fc" id="L101">        return temperatureMin;</span>
+    }
+
+    public void setTemperatureMin(double temperatureMin) {
+<span class="nc" id="L105">        this.temperatureMin = temperatureMin;</span>
+<span class="nc" id="L106">    }</span>
+
+    public double getHumidity() {
+<span class="fc" id="L109">        return humidity;</span>
+    }
+
+    public void setHumidity(double humidity) {
+<span class="nc" id="L113">        this.humidity = humidity;</span>
+<span class="nc" id="L114">    }</span>
+
+    public double getWindSpeed() {
+<span class="fc" id="L117">        return windSpeed;</span>
+    }
+
+    public void setWindSpeed(double windSpeed) {
+<span class="nc" id="L121">        this.windSpeed = windSpeed;</span>
+<span class="nc" id="L122">    }</span>
+
+    public double getCloudCover() {
+<span class="fc" id="L125">        return cloudCover;</span>
+    }
+
+    public void setCloudCover(double cloudCover) {
+<span class="nc" id="L129">        this.cloudCover = cloudCover;</span>
+<span class="nc" id="L130">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.1.201803210924</span></div></body></html>
